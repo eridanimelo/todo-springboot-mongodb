@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user:pass@localhost:27017/todo-app?authSource=admin
